@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Canvas Confetti </title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- partial:index.partial.html -->
+        <canvas id="canvas"></canvas>
+        <!-- partial -->
+
+        <button class="btnClick" onclick="confettiTigger()">
+            <img src="image/confetti.svg" alt="confetti" />
+        </button>
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script>
+            function confettiTigger() {
+                //---------Execution--------
+                initConfetti();
+            }
+
+            render();
+        </script>
+    </body>
+</html>
